@@ -4,7 +4,7 @@ public class E07 {
         int num= -1;
         int num2= 1;
         do{
-            System.out.println(num + " / " +num2);
+            System.out.println(num + "/" +num2);
             num= num *(-1);
             num2= num2+1;
         }while(num2<=10);
